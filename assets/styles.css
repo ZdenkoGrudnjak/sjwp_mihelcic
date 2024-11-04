@@ -1,3 +1,9 @@
+/* univerzalni selektor */
+*{
+    background-color: bisque;
+}
+
+
 h1{
     color:hotpink
 
@@ -21,4 +27,8 @@ h1{
 /* id selector */
 #cetvrti {
     color:crimson;
+}
+/* ako je draggable=zeleno */
+p[draggable="true"]{
+    color:green
 }
