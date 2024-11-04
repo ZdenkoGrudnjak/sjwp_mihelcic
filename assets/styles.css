@@ -1,0 +1,24 @@
+h1{
+    color:hotpink
+
+
+}
+
+/* inicijalizacija class-a za Addingcss file */
+
+.prvi{
+    color:blueviolet
+}
+
+.drugi{
+    color:rgb(43, 226, 83)
+}
+
+.treci{
+    color:rgb(43, 183, 226)
+}
+
+/* id selector */
+#cetvrti {
+    color:crimson;
+}
