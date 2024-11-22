@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vjezba box model</title>
+    <style>
+        h3{
+            color:blueviolet
+        }
+        div{
+            width:250px;
+            height:250px;
+            border: 1px solid black;
+        }
+        .prvi{
+            margin:30px 20px 30px 20px;
+            padding: 30px 20px;
+            border: 4px dotted blueviolet;
+            border-top-width:10px;
+        }
+        .drugi{
+            margin:30px 20px 30px 20px; /*moze i samo 30px 20px napisat. Vrijednosti idu u smjer kazaljke na satu*/
+            padding: 30px 20px;
+            border: 4px dotted blueviolet;
+            border-bottom-width:10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Div element</h3>
+    <div>
+        <p class="prvi">Ovo je p unutar Div elementa</p>
+        <p class="drugi">Ovo je drugi p element</p>
+    </div>
+</body>
+</html>
