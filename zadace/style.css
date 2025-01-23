@@ -18,7 +18,7 @@ h2 {
 
 
 body {
-    background-color: #ECEFF1;
+    background-color: #FAFAFA;
 }
 
 
@@ -27,9 +27,14 @@ p.p1 {
     color: #37474F;
 }
 
-p.highlight {
+p.p2{
     font-size: 18px;
     color: #546E7A;
+}
+
+p.highlight {
+    font-size: 18px;
+    color: #FFC107;
 }
 
 p.p3 {
