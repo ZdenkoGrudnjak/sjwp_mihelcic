@@ -80,8 +80,8 @@ body{
             border-color: rgb(117, 28, 28);
             padding: 20px;
             text-align: center;
-            margin-top: 330px;
-            margin-left: 20px;
+            margin-top: 400px;
+            margin-left: 680px;
             
         }
 
@@ -108,8 +108,9 @@ body{
             font-weight: bold;
             color: brown;
         }
-        .slika img{
-            margin-top: 20px;
-            margin-left: 20px;
-            position: absolute;
+        .imgar{
+    width: 415px;
+    height: 464px;
+    position: absolute;
+    border: 2px solid black; /* Help visually debug */
         }
