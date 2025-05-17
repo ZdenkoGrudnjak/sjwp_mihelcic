@@ -9,6 +9,8 @@ ul {
   left:0;
   width: 100%;
   height:auto;
+  border-bottom:2px solid  #abcabf;
+  
   }
   body{
     background-color: #cde4db;
@@ -19,7 +21,7 @@ ul {
   
   li {
     float: left;
-    border-right: 1px solid #cccccc;
+    border-right: 1px solid #2f3835;
   }
   
   li a {
