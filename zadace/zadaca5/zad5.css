@@ -100,17 +100,31 @@ ul {
 }
 
 .containerC {
-  height:50vh;
-    width: 70vw;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
+  height: 50vh;
+  background-color: #40424d;
+  border: 4px solid #abacca;
+  width: 80%;
+  margin: 10% auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  justify-items: center; 
+  align-items: center;   
+  gap: 2rem;             
+  overflow: hidden; 
   }
   .Logoss{
-    height: auto;
-    width: 20px;
+     width: 150px;
+  height: auto;
+  object-fit: contain;
+  background-color: #3a3c49;
+  padding: 40px;
+  border-radius: 50px;
+  transition: padding 0.5s;
 }
+
+.Logoss:hover{
+    background-color: #2a2e42;
+    padding:50px;
+    border:5px solid #262b41;
+  }
