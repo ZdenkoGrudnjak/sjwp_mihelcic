@@ -98,3 +98,19 @@ ul {
     font-size: 1rem;
   }
 }
+
+.containerC {
+  height:50vh;
+    width: 70vw;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  }
+  .Logoss{
+    height: auto;
+    width: 20px;
+}
