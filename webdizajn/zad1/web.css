@@ -1,0 +1,82 @@
+th,td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+
+td:hover{
+    background-color: gray;
+}
+
+  .edge{
+    background-color: gainsboro;
+  }
+
+  .edgeM{
+    background-color: rgb(180, 180, 180);
+  }
+
+  .A{
+    background-color: rgb(255, 180, 180);
+  }
+
+  .B{
+    background-color: rgb(180, 180, 255)
+  }
+
+  .C{
+    background-color: rgb(180, 255, 180)
+  }
+  .D{
+    background-color: rgb(253, 180, 255)
+  }
+  .E{
+    background-color: rgb(180, 246, 255)
+  }
+  .F{
+    background-color: rgb(180, 255, 211)
+  }
+  .G{
+    background-color: rgb(229, 255, 180)
+  }
+  .H{
+    background-color: rgb(255, 229, 180)
+  }
+  .I{
+    background-color: rgb(255, 195, 180)
+  }
+  .J{
+    background-color: rgb(255, 156, 156)
+  }
+  .K{
+    background-color: rgb(140, 194, 162)
+  }
+  .L{
+    background-color: rgb(140, 162, 194)
+  }
+  .M{
+    background-color: rgb(185, 140, 194)
+  }
+  .N{
+    background-color: rgb(194, 140, 147)
+  }
+  .O{
+    background-color: rgb(182, 194, 140)
+  }
+  .P{
+    background-color: rgb(181, 140, 194)
+  }
+  .Q{
+    background-color: rgb(137, 113, 145)
+  }
+  .R{
+    background-color: rgb(247, 229, 253)
+  }
+  .S{
+    background-color: rgb(181, 140, 194)
+  }
+

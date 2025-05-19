@@ -1,0 +1,100 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #404d48;
+    position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:auto;
+  border-bottom:2px solid  #abcabf;
+  
+  }
+  body{
+    background-color: #cde4db;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  
+  
+  li {
+    float: left;
+    border-right: 1px solid #2f3835;
+  }
+  
+  li a {
+    display: block;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #2f3835;
+  }
+
+  .active {
+    background-color: #1e8660;
+  }
+  
+  .active:hover{
+    background-color: #11533b;
+  }
+  .Logo{
+    height: auto;
+    width: 60px;
+    top: -1px;
+    left: 360px;
+    position: fixed;
+  }
+  .Chromakopia{
+    height: auto;
+    width: 700px;
+    top:200px;
+    left:1140px;
+    position: fixed;
+    border:5px solid  #00643e;
+  }
+  
+  h1,h2,h3,h4,h5,h6,p{
+    color:#323b38;
+  }
+
+  .Container1{
+    background-color: #badace;
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 1000px;
+    height: 750px;
+    text-align: center;
+    border:1px solid  #abcabf;
+  }
+
+  .Naslov1{
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-left: -280px;
+  }
+  .Podnaslov1{
+    margin-top: 0;
+    font-size: 40px;
+    color:#5e6e69;
+    margin-bottom: 28px;
+  }
+
+  .Tekst1{
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    font-size: 40px;
+    color:#323b38;
+    line-height: 58px;
+  }
+
+  hr{
+    background-color:#323b38 ;
+    border-color: #323b38;
+  }

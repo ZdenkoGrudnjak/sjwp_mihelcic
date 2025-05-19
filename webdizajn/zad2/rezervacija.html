@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(247, 251, 255);
+        }
+        legend{
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+
+        label{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        fieldset{
+            width:40%;
+            background-color: rgb(209, 216, 223);
+        }
+        .Kasijan{
+            height: 70px;
+            width: 100px;
+        }
+        .a{
+            background-color: lightgreen;
+        }
+        .b{
+            background-color: lightcoral;
+        }
+        .napomena{
+            background-color: rgb(209, 216, 223);
+        }
+        .nap{
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        .podfiel{
+            background-color: aliceblue;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <fieldset>
+        <legend>Podaci Korisnika</legend>
+        <form method="get">
+            <label for="name">Ime:</label>
+            <input type="text" name="Ime" id="name"> 
+            <br><br>
+            <label for="prez">Prezime:</label>
+            <input type="text" name="Prezime" id="prez" >
+            <br><br>
+            <label for="em">E-mail:</label>
+            <input type="email" name="email" id="em" >
+            <br><br>
+            <label for="Bt">Broj telefona:</label>
+            <input type="text" name="telefon" id="Bt" >
+        </fieldset>
+
+       
+
+        <br>
+
+        <fieldset>
+            <br>
+            <legend>Putovanje</legend>
+            <select id="putovanje" name="putovanje">
+                <option value="Croatia">Croatia</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Japan">Japan</option>
+                <option value="USA">USA</option>
+            </select>
+        
+
+        <br><br><br>
+        
+       
+
+            <fieldset class="podfiel">
+                <label for="dp">Datum polaska:</label>
+            <input type="date" name="datumpol" id="dp"> 
+            <br><br>
+            <label for="dp2">Datum povratka:</label>
+            <input type="date" name="datumpov" id="dp2" >
+            <br><br>
+            <label for="brpu">Broj putnika:</label>
+            <input type="number" name="brojput" id="brpu" > 
+            </fieldset>
+
+      
+
+            <br>
+        
+
+                <fieldset class="podfiel">
+                    <legend>Smještaj:</legend>
+                    <label for="Hotel">Hotel:</label>
+                <input type="radio" name="hotel" id="Hotel" value="hotel"> 
+                <br><br>
+                <label for="Apartman">Apartman:</label>
+                <input type="radio" name="apartman" id="Apartman" value="apartman">
+                <br><br>
+                <label for="Hostel">Hostel:</label>
+                <input type="radio" name="hostel" id="Hostel" value="hostel">
+                </fieldset>
+    
+
+                <br>
+
+            
+
+                <fieldset class="podfiel">
+                    <legend>Dodatne Usluge:</legend>
+                    <label for="Osiguranje">Osiguranje:</label>
+                <input type="checkbox" id="chek1">
+                <br><br>
+                <label for="PrijevozODDO">Prijevoz od/do zračne luke:</label>
+                <input type="checkbox" id="chek2">
+                <br><br>
+                <label for="VođeneTure">Vođene ture:</label>
+                <input type="checkbox" id="chek3">
+                </fieldset>
+                <br><br>
+            </fieldset>
+            <br>
+            <label class="nap" for="Napomena">Napomena:</label>
+            <br>
+            <textarea class="napomena" rows="4" cols="50"></textarea>
+            <br>
+            <br>
+        <input class="Kasijan a" type="submit" value="submit"> 
+        <input class="Kasijan b" type="reset" value="reset">
+                </form>
+</body>
+</html>
