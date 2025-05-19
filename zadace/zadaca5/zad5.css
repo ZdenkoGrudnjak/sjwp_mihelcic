@@ -128,3 +128,35 @@ ul {
     padding:50px;
     border:5px solid #262b41;
   }
+  ol{
+    line-height: 1.6;
+    list-style: none;
+  }
+  .abc{
+    border-right: 0px solid #2f2f38;
+    font-size: 30px;
+    float:none;
+  }
+  .abc a{
+    display:unset;
+    color: black;
+    text-align:unset;
+    padding: 0px 0px;
+    text-decoration: unset;
+    font-style: italic;
+    color:#5b36a0;
+    transition: background-color 0.5s;
+    padding:10px;
+    border-radius: 20px;
+  }
+  .mm{
+    margin-left: 40px;
+    font-size: 30px;
+  }
+  .mma{
+  font-size: 50px;
+}
+
+.abc a:hover {
+    background-color: #a8abd3;
+  }
