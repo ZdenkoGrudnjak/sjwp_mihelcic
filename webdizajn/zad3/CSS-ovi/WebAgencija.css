@@ -98,3 +98,78 @@ ul {
     background-color:#323b38 ;
     border-color: #323b38;
   }
+
+  .FIELD{
+    margin-top: 90px;
+    margin-left: 40px;
+    color:#323b38;
+    font-size: x-large;
+    width:28%;
+    border: 4px solid  #abcabf;
+  }
+
+  .FormL{
+    font-size: xx-large;
+    font-weight: bold;
+    color:#323b38;
+  }
+
+  .FRAN{
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+    font-size: medium;
+    font-weight: bold;
+    color:#323b38;
+    transition: background-color 0.5s;
+    
+ }
+
+  .a{
+    background-color: rgb(154, 221, 154);
+}
+
+  .b{
+    background-color: rgb(223, 166, 166);
+}
+
+.a:hover{
+    background-color: rgb(103, 150, 103);
+  }
+
+.b:hover{
+    background-color: rgb(165, 123, 123);
+  }
+
+.KontakDiv{
+  background-color: #badace;
+  height: 150px;
+  width:600px;
+  display: grid;
+  margin-left: 50px;
+  margin-top: 80px;
+  grid-template-columns: repeat(3, 1fr); 
+  justify-items: center; 
+  align-items: center;  
+  overflow: hidden;
+  border:2px solid  #abcabf;
+}
+
+  .ig{
+    
+  width: 90px;
+  height: auto;
+  }
+
+  input{
+    width: 250px;
+  }
+
+  .fillerK{
+    height: auto;
+    width: 800px;
+    top:180px;
+    left:1000px;
+    position: fixed;
+    border:5px solid  #00643e;
+  }
