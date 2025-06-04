@@ -173,3 +173,48 @@ ul {
     position: fixed;
     border:5px solid  #00643e;
   }
+
+  .containerCAROUSEL {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .carousel {
+      display: flex;
+      gap: 16px;
+    }
+
+    .carousel img {
+      width: 208px;
+      height: 208px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease, z-index 0.3s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      position: relative;
+      z-index: 1;
+    }
+
+    .carousel img:hover {
+      transform: scale(1.5);
+      z-index: 10;
+    }
+
+    .SLIKECAR{
+      position: absolute;
+      top: 120px;
+      font-weight: bold;
+      font-size: 50px;
+    }
+
+    .PRPR{
+    border-right: 0px;
+    display:unset;
+    text-align: left;
+    padding: 0 0;
+    font-size: 40px;
+    color:#323b38;
+    }
